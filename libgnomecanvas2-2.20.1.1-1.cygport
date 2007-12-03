@@ -1,0 +1,11 @@
+ORIG_PN=${PN%${PV_MAJ}}
+
+inherit gnome2
+
+DESCRIPTION="GNOME Canvas widget library"
+HOMEPAGE="http://developer.gnome.org/arch/imaging/canvas.html"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+PKG_CONTENTS[0]="usr/bin/ usr/lib/libglade/ usr/share/doc/ usr/share/locale/"
+PKG_CONTENTS[1]="usr/include/ usr/lib/${ORIG_PN}* usr/lib/pkgconfig/ usr/share/gtk-doc/"
