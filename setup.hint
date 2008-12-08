@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin atk glib2 gdk-pixbuf2 gtk2-x11 libart_lgpl2 libgailutil18 libintl8 pango
+requires: cygwin libart_lgpl2 libatk1.0 libgailutil18 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0
 sdesc: "GNOME canvas widget library (runtime)"
 ldesc: "The GNOME canvas is an engine for structured graphics that
 offers a rich imaging model, high performance rendering, and a powerful,
