@@ -54,14 +54,14 @@ Build instructions:
 
 This will create:
   /usr/src/libgnomecanvas2-2.20.1.1-X-src.tar.bz2
-  /usr/src/libgnomecanvas2-2.20.1.1-X.tar.bz2
   /usr/src/libgnomecanvas2-devel-2.20.1.1-X.tar.bz2
+  /usr/src/libgnomecanvas2_0-2.20.1.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(libgnomecanvas2)
+(libgnomecanvas2_0)
   /usr/bin/cyggnomecanvas-2-0.dll
   /usr/lib/libglade/2.0/cygcanvas.dll
   /usr/lib/libglade/2.0/libcanvas.la

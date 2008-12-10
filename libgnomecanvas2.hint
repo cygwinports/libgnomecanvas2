@@ -1,7 +1,6 @@
 category: Gnome
-requires: cygwin libgnomecanvas2 libart_lgpl2-devel libatk1.0-devel libgailutil-devel libgdk_pixbuf2.0-devel libglib2.0-devel libgtk2.0-devel gettext libpango1.0-devel
-external-source: libgnomecanvas2
-sdesc: "GNOME canvas widget library (development)"
+requires: libgnomecanvas2_0
+sdesc: "GNOME canvas widget library (sources)"
 ldesc: "The GNOME canvas is an engine for structured graphics that
 offers a rich imaging model, high performance rendering, and a powerful,
 high-level API.  It offers a choice of two rendering back-ends, one

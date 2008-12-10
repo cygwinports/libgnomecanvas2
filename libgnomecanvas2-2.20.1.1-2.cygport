@@ -5,7 +5,6 @@ inherit gnome2
 DESCRIPTION="GNOME Canvas widget library"
 HOMEPAGE="http://developer.gnome.org/arch/imaging/canvas.html"
 
-PKG_NAMES="${PN} ${PN}-devel"
-PKG_HINTS="setup devel"
-PKG_CONTENTS[0]="usr/bin/ usr/lib/libglade/ usr/share/doc/ usr/share/locale/"
-PKG_CONTENTS[1]="usr/include/ usr/lib/${ORIG_PN}* usr/lib/pkgconfig/ usr/share/gtk-doc/"
+PKG_NAMES="${PN} ${PN}_0 ${PN}-devel"
+libgnomecanvas2_0_CONTENTS="usr/bin/*-2-0.dll usr/lib/libglade/ usr/share/doc/ usr/share/locale/"
+libgnomecanvas2_devel_CONTENTS="usr/include/ usr/lib/${ORIG_PN}* usr/lib/pkgconfig/ usr/share/gtk-doc/"
