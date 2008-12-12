@@ -12,7 +12,7 @@ required.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  libart_lgpl2-2.3.19-1
+  libart_lgpl_2_2-2.3.20-2
   libatk1.0_0-1.24.0-1
   libgailutil18-2.14.5-1
   libgdk_pixbuf2.0_0-2.14.5-1
