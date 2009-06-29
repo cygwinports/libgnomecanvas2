@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libart_lgpl_2_2 libatk1.0_0 libgailutil18 libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0
+requires: libart_lgpl_2_2 libatk1.0_0 libgailutil18 libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0
 external-source: libgnomecanvas2
 sdesc: "GNOME canvas widget library (runtime)"
 ldesc: "The GNOME canvas is an engine for structured graphics that
