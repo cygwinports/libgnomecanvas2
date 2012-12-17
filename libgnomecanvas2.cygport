@@ -1,0 +1,22 @@
+ORIG_PN=${PN%${PV_MAJ}}
+inherit gnome2
+
+NAME="libgnomecanvas2"
+VERSION=2.30.3
+RELEASE=2
+CATEGORY="GNOME"
+SUMMARY="GNOME canvas widget library"
+DESCRIPTION="The GNOME canvas is an engine for structured graphics that offers
+a rich imaging model, high performance rendering, and a powerful, high-level
+API.  It offers a choice of two rendering back-ends, one based on Xlib for
+extremely fast display, and another based on Libart, a sophisticated,
+antialiased, alpha-compositing engine.  Applications have a choice between the
+Xlib imaging model or a superset of the PostScript imaging model, depending on
+the level of graphic sophistication required."
+HOMEPAGE="http://developer.gnome.org/arch/imaging/canvas.html"
+
+PKG_NAMES="${PN}_0 ${PN}-devel"
+libgnomecanvas2_0_CONTENTS="usr/bin/*-2-0.dll usr/lib/libglade/ usr/share/doc/ usr/share/locale/"
+libgnomecanvas2_devel_CONTENTS="usr/include/ usr/lib/${ORIG_PN}* usr/lib/pkgconfig/ usr/share/gtk-doc/"
+
+CYGCONF_ARGS="--enable-glade"
